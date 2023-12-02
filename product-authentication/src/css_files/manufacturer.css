@@ -1,0 +1,69 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    min-height: 100vh;
+    padding-top: 20px;
+    background-color: #f5f5dc; 
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    background-image: url('../images/background1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dashboard-title {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em; 
+    margin-top: 20px; 
+    margin-bottom: 0.5em; 
+}
+
+.welcome-message {
+    color: white;
+    font-size: 1em;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+
+.action-prompt {
+    color: white;
+    margin-top: 10%;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(1px);
+}

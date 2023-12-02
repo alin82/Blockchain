@@ -1,0 +1,41 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.user-container h2 {
+    margin-bottom: 1em;
+}
+
+.welcome-message {
+    margin-bottom: 1em;
+}
+
+.prompt-text {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.input-field {
+    margin-bottom: 0.5em;
+}
+
+.verification-message {
+    margin-top: 20px;
+}
